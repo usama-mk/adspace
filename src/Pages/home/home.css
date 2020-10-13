@@ -7923,6 +7923,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     font-weight: 600;
     font-size: 20px;
   }
+  
   .filter-btn {
     padding: 8px 22px;
     border: 1px solid #dadfe8;
@@ -12368,7 +12369,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   
   @media (max-width: 992px) {
     .header.nav-left-side .core-nav .wrap-core-nav-list .core-nav-list {
-      float: none;
+      float: right;
     }
     .header-dark-transparent nav .menu li a {
       color: #606c8e;
@@ -13299,7 +13300,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   }
   /** mobile-menu **/
   
+  
   .nav-outer .mobile-nav-toggler {
+     
     position: relative;
     float: right;
     font-size: 40px;

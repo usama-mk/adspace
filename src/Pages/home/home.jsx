@@ -1,16 +1,24 @@
 import React from 'react'
-import logo from '../assets/Asset 6.png';
+import logo from '../../assets/Asset 6.png';
 import './home.css';
 
 class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {keyword: '',
-                      where: ''};
+                      where: '',
+                    //   burger: false    
+                    };
         this.handleChangeWhere = this.handleChangeWhere.bind(this);
         this.handleChangeKeyword = this.handleChangeKeyword.bind(this);
+        // this.handleBurger = this.handleBurger.bind(this);
+
     
         
+      }
+      
+      handleBurger(){
+        //   this.setState({...this.state, burger: !this.state.burger})
       }
     
       handleChangeWhere(event) {
@@ -69,7 +77,7 @@ class Home extends React.Component {
                                 <a href="https://www.adspace.ng/" class="brand">
                                     <img src={logo} alt="Logo" title="Reveal" />
                                 </a>
-                                <button class="toggle-bar core-nav-toggle">
+                                <button class="toggle-bar core-nav-toggle"  >
                                     <span class="ti-align-justify"></span>
                                 </button>
                             </div>
