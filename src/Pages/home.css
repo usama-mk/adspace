@@ -3496,8 +3496,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   nav .brand {
     display: block;
     position: relative;
-    width: 180px;
-    top: 14px;
+    width: 240px;
+    top: 18px;
+    left:-55px;
   }
   
   nav .brand img {
